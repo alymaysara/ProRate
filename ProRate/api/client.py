@@ -4,7 +4,7 @@ import json
 from prettytable import PrettyTable
 from tabulate import tabulate
 
-BASE_URL = "http://127.0.0.1:8000/"
+BASE_URL = "sc222aa.pythonanywhere.com"
 session = requests.Session()
 
 def init_csrf():
